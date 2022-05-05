@@ -2,14 +2,14 @@ import React from 'react';
 import { useNavigate } from 'react-router';
 
 export default function Login () {
-  const navigate = useNavigate();
-  const loginRoute = () => {
-    navigate('/home')
-  }
+  // const navigate = useNavigate();
+  // const loginRoute = () => {
+  //   navigate('/home')
+  // }
 
-  const signUpRoute = () => {
-    navigate('login')
-  }
+  // const signUpRoute = () => {
+  //   navigate('login')
+  // }
 
   return (
     <div>

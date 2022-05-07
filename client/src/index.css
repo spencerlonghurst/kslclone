@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding-top: 0;
+  margin-left: 10%;
+  border: red solid 1px;
+  cursor: pointer;
+}
+nav a {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+nav a:hover {
+  color: orange;
+}
+
+.headerName {
+  display: flex;
+  justify-content: center;
+}

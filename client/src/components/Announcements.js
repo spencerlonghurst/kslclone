@@ -5,44 +5,148 @@ const image = 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEh
 export default function Announcements () {
 
   return (
-  <div>
+  <div className='itemsList'>
+    <div className='item'>
     <img src={image} alt={'A Burger'}/>
     <h6>A World</h6>
     <p>$1000</p>
     <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
     <img src={image} alt={'A Burger'}/>
     <h6>A World</h6>
     <p>$1000</p>
     <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
     <img src={image} alt={'A Burger'}/>
     <h6>A World</h6>
     <p>$1000</p>
     <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
     <img src={image} alt={'A Burger'}/>
     <h6>A World</h6>
     <p>$1000</p>
     <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
     <img src={image} alt={'A Burger'}/>
      <h6>A World</h6>
     <p>$1000</p>
     <p>Park City, UT</p>
+    </div>
+
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
     <img src={image} alt={'A Burger'}/>
      <h6>A World</h6>
     <p>$1000</p>
     <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
     <img src={image} alt={'A Burger'}/>
      <h6>A World</h6>
     <p>$1000</p>
     <p>Park City, UT</p>
+    </div>
+
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
+    <img src={image} alt={'A Burger'}/>
+    <h6>A World</h6>
+    <p>$1000</p>
+    <p>Park City, UT</p>
+    </div>
+
+    <div className='item'>
     <img src={image} alt={'A Burger'}/>
      <h6>A World</h6>
     <p>$1000</p>
     <p>Park City, UT</p>
-    <img src={image} alt={'A Burger'}/>
-     <h6>A World</h6>
-    <p>$1000</p>
-    <p>Park City, UT</p>
-      <h1>This is the Announcements listings</h1>
+    </div>
   </div>
   )
 }

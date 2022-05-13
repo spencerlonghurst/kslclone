@@ -1,8 +1,56 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,25 +60,62 @@ code {
     monospace;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
 nav {
   /* background-color: blue; */
   display: flex;
   flex-direction: column;
   float: left;
-  padding-top: 0;
+  /* padding-top: 0; */
   margin-left: 10%;
-  border: red solid 1px;
+  margin-right: 2%;
+  /* border: red solid 1px; */
   cursor: pointer;
 }
-nav a {
+.ItemsNav a {
   padding-top: 3%;
   padding-bottom: 3%;
+  /* padding-right: 1%; */
 }
-nav a:hover {
+.ItemsNav a:hover {
   color: orange;
+}
+
+.ItemsNav h2 {
+  padding: 9% 0%;
 }
 
 .headerName {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
+  background-color: #002d65;
+  color: #fff;
+  height: 50px;
+  font-size: 22px;
+}
+
+.itemsList {
+  display: flex;
+  flex-wrap: wrap;
+  border-left: lightgray solid 1px;
+}
+
+.item {
+  padding: 2%
+}
+
+.item img {
+  border-radius: 5%;
+}
+
+.NavBars h1{
+  font-size: 22;
 }

@@ -94,9 +94,12 @@ export default function NavBar() {
 
 
   return (
-    <div>
+    <div className='NavBars'>
       <h1 className='headerName'>KSL.com News Sports Yada Yada Ya</h1>
-      <nav>
+      <h3 className='headerName'></h3>
+      
+      <nav className='ItemsNav'>
+        <h2>Categories</h2>
         <a href={announcements} onClick={announcements}>Announcements</a>
         <a href={appliances} onClick={appliances}>Appliances</a>
         <a href={autoParts} onClick={autoParts}>Auto Parts and Accessories</a>
